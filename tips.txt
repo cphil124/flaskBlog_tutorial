@@ -1,0 +1,10 @@
+use 
+pip list to check dependencies, 
+pip freeze > requirements.txt 
+to save package requirements/dependencies for later.
+
+To set an environment variable in PowerShell use $env:FLASK_APP='{variable}'
+
+Use a .pth file with the path to where venv packages are pip installed to. This will add the directory to the 
+PATH for the venv, ensuring that venv installed packages can actually be used. PyLint will still yell at you 
+if they're not installed in the global environment though. 
